@@ -116,7 +116,7 @@ proxy-groups:
 <img width="500" alt="image" src="https://github.com/igziss/ClashxProConfig/assets/29473502/c2268c71-06d6-4232-8f6b-ebce5e3fc658">
 
 
-> ### use: 加载《你的订阅链接1》和《你的订阅链接2》的所有节点
+> ### use: 加载 XFLTD =《你的订阅链接1》和 RV =《你的订阅链接2》的所有节点
 > 
 > ### 综上所述：主开关 igziProxy 
 > > #### 1. 可选择《你的订阅链接1》中的最优路线='🦄 igzi自动选择' 
