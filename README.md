@@ -13,7 +13,8 @@
    + rules：引用规则集（对rule-providers设定走直连or代理）或手动自定义一些规则
 
 ### 废话不多说上配置文件代码
-```
+
+```yaml
 # 基本信息  端口号等信息根据自己需求场景填写
 mixed-port: 7890
 allow-lan: true
@@ -126,7 +127,8 @@ proxy-groups:
 <img width="526" alt="image" src="https://github.com/igziss/ClashxProConfig/assets/29473502/9cfcb7c8-14f2-4583-a130-eeec42c735a7">
 
 ### 接下来配置继续
-```
+
+```yaml
   - 
     name: '🤖 chatGPT'
     type: select
@@ -168,7 +170,8 @@ proxy-groups:
 > 以下使用的在线规则集，以 url 链接形式提供，包含常见的域名和IP 地址列表，由项目大佬们实时维护的！
 > 
 > 转自：<a href="https://github.com/Loyalsoldier/clash-rules">@Loyalsoldier/clash-rules</a>
-```
+
+```yaml
 rule-providers:
 # 广告域名列表 reject.txt
   reject:
@@ -264,7 +267,7 @@ rule-providers:
 ```
 #### 以上是规则集，如果不想使用，只需自定义以下 rules 即可
 
-```
+```yaml
 rules:
 # START 这里是我自定义的规则
   - DOMAIN-SUFFIX,axure.cloud,igziProxy
